@@ -1,0 +1,11 @@
+.wy-side-nav-search > a > div {
+    position: unset !important;
+}
+
+.wy-side-scroll {
+    overflow: hidden !important;
+}
+
+.pyrogram-text-index {
+    position: unset !important;
+}
