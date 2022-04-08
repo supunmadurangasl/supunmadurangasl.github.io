@@ -4,11 +4,10 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Rose BOT &mdash; szrosebot Documentation</title>
-<link rel="stylesheet" href="assets/css/dark_pygments.css" type="text/css" />
-<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
-<link rel="stylesheet" href="assets/css/theme.css" type="text/css" />
-<link rel="stylesheet" href="assets/css/copy_button.css" type="text/css" />
-<link rel="shortcut icon" href="assets/favicon.ico" />
+<link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+<link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+<link rel="shortcut icon" href="_static/favicon.ico" />
 <link rel="canonical" href="https://szrosebot.org/index.html" />
 <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
@@ -65,6 +64,7 @@
 <nav data-toggle="wy-nav-shift" class="wy-nav-side">
 <div class="wy-side-nav-search">
 <a href="#">
+<img src="_static/pyrogram.png" class="logo" alt="Logo" />
 <div class="pyrogram-text">Rose Bot</div>
 </a>
 <div class="support-pyrogram" style="cursor: pointer;" href="https://t.me/szrosesupport">
@@ -106,7 +106,6 @@ Support Rose
 <div class="rst-content style-external-links">
 <div role="navigation" aria-label="Page navigation">
 <ul class="wy-breadcrumbs">
-<li><a href="#">Home</a> &raquo;</li>
 <li>Welcome to Rose Bot</li>
 <li class="wy-breadcrumbs-aside">
 <a href="https://github.com/szsupunma/sz-rosebot" class="fa fa-github" rel="nofollow" style="font-size: 1.25em"> View on GitHub</a>
@@ -125,6 +124,7 @@ Support Rose
 <h1>Welcome to Rose Bot<a class="headerlink" href="#welcome-to-pyrogram" title="Permalink to this headline"></a></h1>
 <div align="center">
 <a href="/">
+<div class="pyrogram-logo-index"><img src="_static/pyrogram.png" alt="Pyrogram"></div>
 <div class="pyrogram-text pyrogram-text-index">Rose Bot</div>
 </a>
 </div>
@@ -145,7 +145,7 @@ News
 </p></div>
 <p><strong>Rose Bot</strong>  is an all in one group management bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️</p>
 <br>
-<p><strong>Adding Rose Bot to your group </strong> 
+<h2><p><strong>Adding Rose Bot to your group </strong></h2>
 <br> 
 1. Open the <strong>"Administrator"</strong> settings of your group
 <br>
@@ -166,11 +166,16 @@ News
 <li><p><strong>Independent</strong>: Rose is Maintained by Me, No gbans, No sudo powers. All power belongs to you.</p></li>
 </ul>
 </div>
-<div role="contentinfo">
-<p>
-<b><a href="https://github.com/szsupunma/sz-rosebot">Rose Boot</a></b>
-&copy; Copyright 2022</p>
-</div>
+<footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+  <a href="intro/quickstart.html" class="btn btn-neutral float-right" title="Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+  </div>
+  <hr />
+  <div role="contentinfo">
+  <p>
+  <b><a href="https://github.com/szsupunma/sz-rosebot">Rose Bot</a></b>
+&copy; Copyright 2022, Credits <a href="https://docs.pyrogram.org">Pyrogram</a>
+</p>
+  </div>
 </footer>
 </div>
 </div>
@@ -264,45 +269,6 @@ News
         colorTheme = e.matches ? "dark" : "light";
         toAuto()
     });
-  </script>
-<script>
-    let carbonCheck = setInterval(function() {
-      let el = document.getElementById("carbonads");
-
-      if (el !== null) {
-        let h1 = document.querySelector("h1");
-        let hr = document.querySelector("h1 ~ hr");
-        let h2 = document.querySelector("h2");
-        let dl = document.querySelector("dl");
-
-        let wrap = document.createElement("div");
-
-        wrap.setAttribute("class", "ca-wrap");
-        wrap.appendChild(el);
-
-        if (hr !== null) {
-          hr.insertAdjacentElement("beforeBegin", wrap);
-        }
-        else if (h2 !== null) {
-          h2.insertAdjacentElement("beforeBegin", wrap);
-        } else if (dl !== null) {
-          wrap.style.marginTop = "20px";
-          dl.firstElementChild.insertAdjacentElement("afterEnd", wrap);
-        } else if (h1 !== null) {
-          h1.insertAdjacentElement("afterEnd", wrap);
-        }
-
-        clearInterval(carbonCheck);
-      }
-    }, 100);
-
-    setTimeout(function () {
-      clearInterval(carbonCheck)
-    }, 5000);
-
-    if (!window.adsOk) {
-      document.getElementById("banner").style.display = "block"
-    }
   </script>
 <script>
       jQuery(function () {
