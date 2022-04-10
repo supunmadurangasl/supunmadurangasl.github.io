@@ -1,280 +1,174 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Rose BOT &mdash; szrosebot Documentation</title>
-<link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-<link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-<link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
-<link rel="shortcut icon" href="_static/favicon.ico" />
-<link rel="canonical" href="https://szrosebot.org/index.html" />
-<!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-<script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-<script src="_static/jquery.js"></script>
-<script src="_static/underscore.js"></script>
-<script src="_static/doctools.js"></script>
-<script src="_static/clipboard.min.js"></script>
-<script src="_static/copybutton.js"></script>
-<script src="_static/js/theme.js"></script>
-<link rel="index" title="Index" href="genindex.html" />
-<link rel="search" title="Search" href="search.html" />
-<link rel="next" title="Quick Start" href="intro/quickstart.html" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<meta property="og:title" content="Rose BOT &mdash; szrosebot Documentation">
-<meta property="og:type" content="website">
-<meta property="og:image" content="_static/img/og.jpg">
-<meta property="og:url" content="index.html">
-<meta property="og:site_name" content="Pyrogram">
-<meta property="og:locale" content="en_US">
-<meta name="theme-color" content="#5c5a55">
-<link rel="stylesheet" href="" id="theme-css">
-<link rel="stylesheet" href="" id="pygments-css">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Bitter:400,600" rel="stylesheet">
-<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7IV23N&placement=pyrogramorg" id="_carbonads_js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140592553-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-140592553-1');
-  </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://szrosebot.org/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://szrosebot.org/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-<script src="/_static/js/ads-prebid.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.70">
+<link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Rose BOTsz Docs">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Rose BOTsz Docs"><title data-react-helmet="true">Rose BOTsz </title><meta data-react-helmet="true" property="og:title" content="Rose BOTsz "><meta data-react-helmet="true" name="description" content="Rose BOTsz Documentation"><meta data-react-helmet="true" property="og:description" content="Rose BOTsz Documentation"><meta data-react-helmet="true" property="og:image" content="https://www.ultroid.tech/img/metalogo.jpg"><meta data-react-helmet="true" name="twitter:image" content="https://www.ultroid.tech/img/metalogo.jpg"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Rose BOTsz Documentation"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><meta data-react-helmet="true" name="yandex-verification" content="b8291c7f76165c9d"><link data-react-helmet="true" rel="shortcut icon" href="/img/u.png"><script data-react-helmet="true">document.addEventListener("DOMContentLoaded",(function(){var n=document.getElementById("base-url-issue-banner-container");if(n){var e=window.location.pathname,t="/"===e.substr(-1)?e:e+"/";n.innerHTML=t}}))</script><link rel="stylesheet" href="assets/css/main.css">
+<link rel="preload" href="assets/js/styles.supun.js" as="script">
+<link rel="preload" href="assets/js/runtime~main.252fd425.js" as="script">
+<link rel="preload" href="assets/js/main.aa61a594.js" as="script">
+<link rel="preload" href="assets/js/1.d07a0ffe.js" as="script">
+<link rel="preload" href="assets/js/2.ebd04982.js" as="script">
+<link rel="preload" href="assets/js/c4f5d8e4.20b2f4c2.js" as="script">
 </head>
-<body class="wy-body-for-nav">
-<div class="center-rtd-theme">
-<div class="wy-grid-for-nav">
-<nav data-toggle="wy-nav-shift" class="wy-nav-side">
-<div class="wy-side-nav-search">
-<a href="#">
-<img src="_static/pyrogram.png" class="logo" alt="Logo" />
-<div class="pyrogram-text">Rose Bot</div>
-</a>
-<div class="support-pyrogram" style="cursor: pointer;" href="https://t.me/szrosesupport">
-Support Rose
+
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
+<div class="baseUrlIssueBanner_1-cE" style="border:solid red thick;background-color:#ffe6b3;margin:20px;padding:20px;font-size:20px">
+    <p style="font-weight:bold;font-size:30px">Your Docusaurus site did not load properly.</p>
+    <p>A very common reason is a wrong site <a href="https://v2.docusaurus.io/docs/docusaurus.config.js/#baseurl" style="font-weight:bold">baseUrl configuration</a>.</p>
+    <p>Current configured baseUrl = <span style="font-weight:bold;color:red">/</span>  (default value)</p>
+    <p>We suggest trying baseUrl = <span style="font-weight:bold;color:green" id="base-url-issue-banner-container"></span> 
+    </p>
 </div>
-<div id="theme-button">Auto</div>
-<div role="search">
-<form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-<input type="text" name="q" placeholder="Search docs" />
-<input type="hidden" name="check_keywords" value="yes" />
-<input type="hidden" name="area" value="default" />
-</form>
-</div>
-</div>
-<div class="wy-side-scroll"><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-<p class="caption" role="heading"><span class="caption-text">🚀 Getting started</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="intro/quickstart.html">👻Why Rose?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intro/install.html">🔥 Credits</a></li>
-<li class="toctree-l1"><a class="reference internal" href="intro/setup.html">🌹 Developers</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">🚧 Changelogs</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="start/auth.html">🎭 Rose Bot  v 1.0.9</a></li>
-<li class="toctree-l1"><a class="reference internal" href="start/invoking.html">🎭 Rose Bot  v 1.0.8</a></li>
-<li class="toctree-l1"><a class="reference internal" href="start/updates.html">🎭 Rose Bot  v 1.0.7</a></li>
-<li class="toctree-l1"><a class="reference internal" href="start/errors.html">🎭 Rose Bot  v 1.0.6</a></li>
-<li class="toctree-l1"><a class="reference internal" href="start/examples/index.html">🎭 Rose Bot  v 1.0.5</a></li>
-</ul>
-<div class="pyrogram-version"><strong>Rose Bot</strong> — version 1.0.9</div>
-</div>
-</div>
+<nav aria-label="Skip navigation links">
+    <button type="button" tabindex="0" class="skipToContent_11B0">Skip to main content</button>
 </nav>
-<section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu">
-<i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-<a href="#">Rose Bot</a>
-</nav>
-<div class="wy-nav-content">
-<div class="rst-content style-external-links">
-<div role="navigation" aria-label="Page navigation">
-<ul class="wy-breadcrumbs">
-<li>Welcome to Rose Bot</li>
-<li class="wy-breadcrumbs-aside">
-<a href="https://github.com/szsupunma/sz-rosebot" class="fa fa-github" rel="nofollow" style="font-size: 1.25em"> View on GitHub</a>
-</li>
-</ul>
-<hr />
+<nav class="navbar navbar--fixed-top">
+    <div class="navbar__inner">
+        <div class="navbar__items">
+            <div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0">
+                <svg aria-label="Menu" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
+                    <title>Menu</title>
+                    <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+                </svg>
+            </div>
+            <a class="navbar__brand" href="/">
+                <img src="/img/u.png" alt="Rose BOTsz Logo" class="themedImage_YANc themedImage--light_3CMI navbar__logo">
+                <img src="/img/u.png" alt="Rose BOTsz Logo" class="themedImage_YANc themedImage--dark_3ARp navbar__logo">
+                <strong class="navbar__title">Rose BOTsz</strong></a>
+                <a class="navbar__item navbar__link" href="/docs/">Docs</a>
+            </div>
+            <div class="navbar__items navbar__items--right">
+                <a href="https://github.com/TeamUltroid/Ultroid" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub</a>
+                <div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2N3Q">
+                    <div class="react-toggle-track">
+                        <div class="react-toggle-track-check">
+                            <span class="toggle_3NWk">🌜</span>
+                        </div>
+                        <div class="react-toggle-track-x">
+                            <span class="toggle_3NWk">🌞</span>
+                        </div>
+                    </div>
+                    <div class="react-toggle-thumb"></div>
+                    <input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only">
+                </div>
+            </div>
+        </div>
+        <div role="presentation" class="navbar-sidebar__backdrop"></div>
+        <div class="navbar-sidebar">
+            <div class="navbar-sidebar__brand">
+                <a class="navbar__brand" href="/">
+                    <img src="/img/u.png" alt="Rose BOTsz Logo" class="themedImage_YANc themedImage--light_3CMI navbar__logo">
+                    <img src="/img/u.png" alt="Rose BOTsz  Logo" class="themedImage_YANc themedImage--dark_3ARp navbar__logo">
+                    <strong class="navbar__title">Rose BOTsz</strong>
+                </a>
+            </div>
+            <div class="navbar-sidebar__items">
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="/docs/">Docs</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="https://github.com/TeamUltroid/Ultroid" target="_blank" rel="noopener noreferrer" class="menu__link">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="main-wrapper">
+        <header class="hero hero--primary heroBanner_2Ftp">
+            <div class="container">
+                <h1 class="hero__title">Rose BOTsz</h1>
+                <p class="hero__subtitle">Ultroid, a pluggable telegram userbot, made in python using Telethon!</p>
+                <div class="buttons_1Wc3">
+                    <a class="margin-horiz--xs button button--outline button--secondary button--lg" href="/docs/">Get Started</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="features_P2SU">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col--4">
+                            <div class="text--center">
+                                <img class="featureImage_3Xqx" src="/img/undraw_pair_programming_njlp.svg" alt="Built From Scratch"></div>
+                                <h3>Built From Scratch</h3>
+                                <p>Ultroid has been written from scratch, making it more stable and less of crashes</p>
+                            </div>
+                            <div class="col col--4">
+                                <div class="text--center">
+                                    <img class="featureImage_3Xqx" src="/img/undraw_Security_on_ff2u.svg" alt="Safety First">
+                                </div>
+                                <h3>Safety First</h3>
+                                <p>Ultroid warns you when you try to install/execute dangerous stuff (people nowadays make plugins to hack user accounts, Ultroid is safe)</p>
+                            </div>
+                            <div class="col col--4">
+                                <div class="text--center">
+                                    <img class="featureImage_3Xqx" src="/img/undraw_cloud_hosting_aodd.svg" alt="Deployable to Heroku"></div>
+                                    <h3>Deployable to Heroku</h3>
+                                    <p>Unlike many others userbots* which are being suspended by heroku, Ultroid doesn&#x27;t get suspended.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
 
-
-
-
-
-</div>
-<div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-<div itemprop="articleBody">
-<div class="section" id="welcome-to-pyrogram">
-<h1>Welcome to Rose Bot<a class="headerlink" href="#welcome-to-pyrogram" title="Permalink to this headline"></a></h1>
-<div align="center">
-<a href="/">
-<div class="pyrogram-logo-index"><img src="_static/pyrogram.png" alt="Pyrogram"></div>
-<div class="pyrogram-text pyrogram-text-index">Rose Bot</div>
-</a>
-</div>
-<p align="center">
-<b>Group management bot with lot of features</b>
-<br>
-<a href="https://github.com/szsupunma/sz-rosebot">
-Source
-</a>
-•
-<a href="https://szrosebot.org/releases">
-Releases
-</a>
-•
-<a href="https://t.me/Theszrosebot">
-News
-</a>
-</p></div>
-<p><strong>Rose Bot</strong>  is an all in one group management bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️</p>
-<br>
-<h2><p><strong>Adding Rose Bot to your group </strong></h2>
-<br> 
-1. Open the <strong>"Administrator"</strong> settings of your group
-<br>
-2.Select <strong>"Add admin" | "Add administrator".</strong>.
-<br>
-3.Search for @szrosebot and add Rose Bot as an admin to your group.
-<br>
-4. Start Rose by sending /start into your chat!
-</p>
-<div class="section" id="key-features">
-<h2>Key Features<a class="headerlink" href="https://t.me/szroseupdates" title="Permalink to this headline"></a></h2>
-<ul class="simple">
-<li><p><strong>Simple</strong>:  Rose brings you the best tools with a simple easy to use manner & User Friendly Interactive UI, Fonts and Thumbnails.</p></li>
-<li><p><strong>Featured</strong>: Rose is the most featured group management bot ever made with advance Anti module</p></li>
-<li><p><strong>Fast</strong>:Rose can do things faster in groups</p></li>
-<li><p><strong>Database</strong>: When you add Filters notes or such content that data will be stared in our database (Added 2 mongo database )</p></li>
-<li><p><strong>Extras</strong>: Extra tools which are available in bot and tools made for get fun</p></li>
-<li><p><strong>Independent</strong>: Rose is Maintained by Me, No gbans, No sudo powers. All power belongs to you.</p></li>
-</ul>
-</div>
-<footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-  <a href="intro/quickstart.html" class="btn btn-neutral float-right" title="Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-  </div>
-  <hr />
-  <div role="contentinfo">
-  <p>
-  <b><a href="https://github.com/szsupunma/sz-rosebot">Rose Bot</a></b>
-&copy; Copyright 2022, Credits <a href="https://docs.pyrogram.org">Pyrogram</a>
-</p>
-  </div>
+<footer class="footer footer--dark">
+    <div class="container">
+        <div class="row footer__links">
+            <div class="col footer__col">
+                <h4 class="footer__title">Links</h4>
+                <ul class="footer__items">
+                    <li class="footer__item"><a class="footer__link-item" href="/docs/">Documentation</a></li>
+                    <li class="footer__item"><a class="footer__link-item" href="/docs/pyUltroid/pyUltroid">Source</a></li>
+                </ul>
+            </div>
+            <div class="col footer__col">
+                <h4 class="footer__title">Community</h4>
+                <ul class="footer__items">
+                    <li class="footer__item"><a href="https://telegram.dog/UltroidSupport" target="_blank" rel="noopener noreferrer" class="footer__link-item">Telegram</a></li>
+                    <li class="footer__item"><a href="https://twitter.com/TheUltroid" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col footer__col">
+                <h4 class="footer__title">Installation</h4>
+                <ul class="footer__items">
+                    <li class="footer__item"><a href="https://telegram.dog/UltroidSupport" target="_blank" rel="noopener noreferrer" class="footer__link-item">Telegram</a></li>
+                    <li class="footer__item"><a href="https://twitter.com/TheUltroid" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col footer__col">
+                <h4 class="footer__title">Changelogs</h4>
+                <ul class="footer__items">
+                    <li class="footer__item"><a href="https://telegram.dog/UltroidSupport" target="_blank" rel="noopener noreferrer" class="footer__link-item">Telegram</a></li>
+                    <li class="footer__item"><a href="https://twitter.com/TheUltroid" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col footer__col"><h4 class="footer__title">Developers</h4>
+                <ul class="footer__items">
+                    <li class="footer__item"><a href="https://github.com/TeamUltroid/Ultroid" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom text--center">
+            <div class="footer__copyright">Copyright © 2022 <a href="https://github.com/szsupunma" target="_blank">Rose BOTsz</a>
+          </div>
+        </div>
+    </div>
 </footer>
+
 </div>
-</div>
-</section>
-</div>
-</div>
-<script>
-    function setCookie(name,value,days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-    }
-    function getCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)===' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-
-    let themeButton = document.getElementById("theme-button");
-    let themeCSS = document.getElementById("theme-css");
-    let pygmentsCSS = document.getElementById("pygments-css");
-    let theme = getCookie("theme") || "auto";
-    let colorTheme = getColorScheme();
-
-    function getColorScheme() {
-      if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        return "dark";
-      } else {
-        return "light";
-      }
-    }
-
-    function toDark() {
-      themeCSS.setAttribute("href", "/_static/css/dark.css");
-      pygmentsCSS.setAttribute("href", "/_static/css/dark_pygments.css");
-
-      themeButton.innerHTML = "<i class='fa fa-moon-o'> Dark</i>";
-      theme = "dark";
-      setCookie("theme", theme, 365);
-    }
-
-    function toLight() {
-      themeCSS.setAttribute("href", "");
-      pygmentsCSS.setAttribute("href", "");
-
-      themeButton.innerHTML = "<i class='fa fa-sun-o'> Light</i>";
-      theme = "light";
-      setCookie("theme", theme, 365);
-    }
-
-    function toAuto() {
-      if (colorTheme === "dark") {
-        toDark();
-      } else {
-        toLight();
-      }
-
-      themeButton.innerHTML = "<i class='fa fa-magic'> Auto</i>";
-      theme = "auto";
-      setCookie("theme", theme, 365);
-    }
-
-    if (theme === "auto") {
-      toAuto();
-    } else if (theme === "dark") {
-      toDark();
-    } else {
-      toLight();
-    }
-
-    themeButton.onclick = function() {
-      if (theme === "auto") {
-        toLight();
-      } else if (theme === "light") {
-        toDark();
-      } else {
-        toAuto();
-      }
-    };
-
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", e => {
-        colorTheme = e.matches ? "dark" : "light";
-        toAuto()
-    });
-  </script>
-<script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(false);
-      });
-  </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6f8718afdd4249c6","version":"2021.12.0","r":1,"token":"4e9562e76cd24f108c6347b08a632828","si":100}' crossorigin="anonymous"></script>
+<script src="assets/js/styles.supun.js"></script>
+<script src="assets/js/runtime~main.252fd425.js"></script>
+<script src="assets/js/main.aa61a594.js"></script>
+<script src="assets/js/1.d07a0ffe.js"></script>
+<script src="assets/js/2.ebd04982.js"></script>
+<script src="assets/js/c4f5d8e4.20b2f4c2.js"></script>
 </body>
 </html>
